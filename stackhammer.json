@@ -6,7 +6,7 @@
     "agentRunInterval": 10,
     "type": "C1_MEDIUM",
     "deployState": "RUNNING",
-    "image": "ami-14aa2524",
+    "image": "ami-198a1929",
     "name": "master"
   },
   "environments": [
