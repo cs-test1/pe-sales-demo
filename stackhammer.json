@@ -7,6 +7,9 @@
     "type": "C1_MEDIUM",
     "deployState": "RUNNING",
     "image": "ami-198a1929",
+    "publicKeys": [
+      "thomas@tada.se:ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA77+8pjmo4CqIKVfliWpjpuodUnGcZxTDn8ZOLumQ1pqCx0wzSnHZT2IsHYX6rSKiG0CGZQ+PaKUwBsxzi7qQUAKIMgXWjbNSbu2jWsj5pIFbJkCLx4ej98ZBuW6OxdYJ9w2du5ibhhCw0mE4p/Cop4jUjch34nSMnaytZ3k1ZtGKNF1+kgMvi5sjRiUNUQrFOQXrLtGzsWddDGiS+A5WyOtuxggDkAimYrKZeeI/YPtcbHKE2ib7s6R+IGlAnla706Eavy+pPYPpIv9fcBG8dR+iOeBD4KBK2+lZERmVWvBJ7w/Poc6wPtW6LGVDi9vsJzmsTpfpeyRZBniVgrUFZw\u003d\u003d thomas@tada.se"
+    ],
     "name": "master"
   },
   "environments": [
@@ -20,70 +23,100 @@
           "role": "agent",
           "type": "M1_SMALL",
           "deployState": "RUNNING",
-          "image": "ami-14aa2524",
+          "image": "ami-198a1929",
+          "publicKeys": [
+            "thomas@tada.se:ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA77+8pjmo4CqIKVfliWpjpuodUnGcZxTDn8ZOLumQ1pqCx0wzSnHZT2IsHYX6rSKiG0CGZQ+PaKUwBsxzi7qQUAKIMgXWjbNSbu2jWsj5pIFbJkCLx4ej98ZBuW6OxdYJ9w2du5ibhhCw0mE4p/Cop4jUjch34nSMnaytZ3k1ZtGKNF1+kgMvi5sjRiUNUQrFOQXrLtGzsWddDGiS+A5WyOtuxggDkAimYrKZeeI/YPtcbHKE2ib7s6R+IGlAnla706Eavy+pPYPpIv9fcBG8dR+iOeBD4KBK2+lZERmVWvBJ7w/Poc6wPtW6LGVDi9vsJzmsTpfpeyRZBniVgrUFZw\u003d\u003d thomas@tada.se"
+          ],
           "name": "centos63001"
         },
         {
           "role": "agent",
           "type": "M1_SMALL",
           "deployState": "RUNNING",
-          "image": "ami-14aa2524",
+          "image": "ami-198a1929",
+          "publicKeys": [
+            "thomas@tada.se:ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA77+8pjmo4CqIKVfliWpjpuodUnGcZxTDn8ZOLumQ1pqCx0wzSnHZT2IsHYX6rSKiG0CGZQ+PaKUwBsxzi7qQUAKIMgXWjbNSbu2jWsj5pIFbJkCLx4ej98ZBuW6OxdYJ9w2du5ibhhCw0mE4p/Cop4jUjch34nSMnaytZ3k1ZtGKNF1+kgMvi5sjRiUNUQrFOQXrLtGzsWddDGiS+A5WyOtuxggDkAimYrKZeeI/YPtcbHKE2ib7s6R+IGlAnla706Eavy+pPYPpIv9fcBG8dR+iOeBD4KBK2+lZERmVWvBJ7w/Poc6wPtW6LGVDi9vsJzmsTpfpeyRZBniVgrUFZw\u003d\u003d thomas@tada.se"
+          ],
           "name": "centos63002"
         },
         {
           "role": "agent",
           "type": "M1_SMALL",
           "deployState": "RUNNING",
-          "image": "ami-14aa2524",
+          "image": "ami-198a1929",
+          "publicKeys": [
+            "thomas@tada.se:ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA77+8pjmo4CqIKVfliWpjpuodUnGcZxTDn8ZOLumQ1pqCx0wzSnHZT2IsHYX6rSKiG0CGZQ+PaKUwBsxzi7qQUAKIMgXWjbNSbu2jWsj5pIFbJkCLx4ej98ZBuW6OxdYJ9w2du5ibhhCw0mE4p/Cop4jUjch34nSMnaytZ3k1ZtGKNF1+kgMvi5sjRiUNUQrFOQXrLtGzsWddDGiS+A5WyOtuxggDkAimYrKZeeI/YPtcbHKE2ib7s6R+IGlAnla706Eavy+pPYPpIv9fcBG8dR+iOeBD4KBK2+lZERmVWvBJ7w/Poc6wPtW6LGVDi9vsJzmsTpfpeyRZBniVgrUFZw\u003d\u003d thomas@tada.se"
+          ],
           "name": "centos63003"
         },
         {
           "role": "agent",
           "type": "M1_SMALL",
           "deployState": "RUNNING",
-          "image": "ami-14aa2524",
+          "image": "ami-198a1929",
+          "publicKeys": [
+            "thomas@tada.se:ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA77+8pjmo4CqIKVfliWpjpuodUnGcZxTDn8ZOLumQ1pqCx0wzSnHZT2IsHYX6rSKiG0CGZQ+PaKUwBsxzi7qQUAKIMgXWjbNSbu2jWsj5pIFbJkCLx4ej98ZBuW6OxdYJ9w2du5ibhhCw0mE4p/Cop4jUjch34nSMnaytZ3k1ZtGKNF1+kgMvi5sjRiUNUQrFOQXrLtGzsWddDGiS+A5WyOtuxggDkAimYrKZeeI/YPtcbHKE2ib7s6R+IGlAnla706Eavy+pPYPpIv9fcBG8dR+iOeBD4KBK2+lZERmVWvBJ7w/Poc6wPtW6LGVDi9vsJzmsTpfpeyRZBniVgrUFZw\u003d\u003d thomas@tada.se"
+          ],
           "name": "centos63004"
         },
         {
           "role": "agent",
           "type": "M1_SMALL",
           "deployState": "RUNNING",
-          "image": "ami-14aa2524",
+          "image": "ami-198a1929",
+          "publicKeys": [
+            "thomas@tada.se:ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA77+8pjmo4CqIKVfliWpjpuodUnGcZxTDn8ZOLumQ1pqCx0wzSnHZT2IsHYX6rSKiG0CGZQ+PaKUwBsxzi7qQUAKIMgXWjbNSbu2jWsj5pIFbJkCLx4ej98ZBuW6OxdYJ9w2du5ibhhCw0mE4p/Cop4jUjch34nSMnaytZ3k1ZtGKNF1+kgMvi5sjRiUNUQrFOQXrLtGzsWddDGiS+A5WyOtuxggDkAimYrKZeeI/YPtcbHKE2ib7s6R+IGlAnla706Eavy+pPYPpIv9fcBG8dR+iOeBD4KBK2+lZERmVWvBJ7w/Poc6wPtW6LGVDi9vsJzmsTpfpeyRZBniVgrUFZw\u003d\u003d thomas@tada.se"
+          ],
           "name": "centos63005"
         },
         {
           "role": "agent",
           "type": "M1_SMALL",
           "deployState": "RUNNING",
-          "image": "ami-14aa2524",
+          "image": "ami-198a1929",
+          "publicKeys": [
+            "thomas@tada.se:ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA77+8pjmo4CqIKVfliWpjpuodUnGcZxTDn8ZOLumQ1pqCx0wzSnHZT2IsHYX6rSKiG0CGZQ+PaKUwBsxzi7qQUAKIMgXWjbNSbu2jWsj5pIFbJkCLx4ej98ZBuW6OxdYJ9w2du5ibhhCw0mE4p/Cop4jUjch34nSMnaytZ3k1ZtGKNF1+kgMvi5sjRiUNUQrFOQXrLtGzsWddDGiS+A5WyOtuxggDkAimYrKZeeI/YPtcbHKE2ib7s6R+IGlAnla706Eavy+pPYPpIv9fcBG8dR+iOeBD4KBK2+lZERmVWvBJ7w/Poc6wPtW6LGVDi9vsJzmsTpfpeyRZBniVgrUFZw\u003d\u003d thomas@tada.se"
+          ],
           "name": "centos63006"
         },
         {
           "role": "agent",
           "type": "M1_SMALL",
           "deployState": "RUNNING",
-          "image": "ami-14aa2524",
+          "image": "ami-198a1929",
+          "publicKeys": [
+            "thomas@tada.se:ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA77+8pjmo4CqIKVfliWpjpuodUnGcZxTDn8ZOLumQ1pqCx0wzSnHZT2IsHYX6rSKiG0CGZQ+PaKUwBsxzi7qQUAKIMgXWjbNSbu2jWsj5pIFbJkCLx4ej98ZBuW6OxdYJ9w2du5ibhhCw0mE4p/Cop4jUjch34nSMnaytZ3k1ZtGKNF1+kgMvi5sjRiUNUQrFOQXrLtGzsWddDGiS+A5WyOtuxggDkAimYrKZeeI/YPtcbHKE2ib7s6R+IGlAnla706Eavy+pPYPpIv9fcBG8dR+iOeBD4KBK2+lZERmVWvBJ7w/Poc6wPtW6LGVDi9vsJzmsTpfpeyRZBniVgrUFZw\u003d\u003d thomas@tada.se"
+          ],
           "name": "centos63007"
         },
         {
           "role": "agent",
           "type": "M1_SMALL",
           "deployState": "RUNNING",
-          "image": "ami-14aa2524",
+          "image": "ami-198a1929",
+          "publicKeys": [
+            "thomas@tada.se:ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA77+8pjmo4CqIKVfliWpjpuodUnGcZxTDn8ZOLumQ1pqCx0wzSnHZT2IsHYX6rSKiG0CGZQ+PaKUwBsxzi7qQUAKIMgXWjbNSbu2jWsj5pIFbJkCLx4ej98ZBuW6OxdYJ9w2du5ibhhCw0mE4p/Cop4jUjch34nSMnaytZ3k1ZtGKNF1+kgMvi5sjRiUNUQrFOQXrLtGzsWddDGiS+A5WyOtuxggDkAimYrKZeeI/YPtcbHKE2ib7s6R+IGlAnla706Eavy+pPYPpIv9fcBG8dR+iOeBD4KBK2+lZERmVWvBJ7w/Poc6wPtW6LGVDi9vsJzmsTpfpeyRZBniVgrUFZw\u003d\u003d thomas@tada.se"
+          ],
           "name": "centos63008"
         },
         {
           "role": "agent",
           "type": "M1_SMALL",
           "deployState": "RUNNING",
-          "image": "ami-14aa2524",
+          "image": "ami-198a1929",
+          "publicKeys": [
+            "thomas@tada.se:ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA77+8pjmo4CqIKVfliWpjpuodUnGcZxTDn8ZOLumQ1pqCx0wzSnHZT2IsHYX6rSKiG0CGZQ+PaKUwBsxzi7qQUAKIMgXWjbNSbu2jWsj5pIFbJkCLx4ej98ZBuW6OxdYJ9w2du5ibhhCw0mE4p/Cop4jUjch34nSMnaytZ3k1ZtGKNF1+kgMvi5sjRiUNUQrFOQXrLtGzsWddDGiS+A5WyOtuxggDkAimYrKZeeI/YPtcbHKE2ib7s6R+IGlAnla706Eavy+pPYPpIv9fcBG8dR+iOeBD4KBK2+lZERmVWvBJ7w/Poc6wPtW6LGVDi9vsJzmsTpfpeyRZBniVgrUFZw\u003d\u003d thomas@tada.se"
+          ],
           "name": "centos63009"
         },
         {
           "role": "agent",
           "type": "M1_SMALL",
           "deployState": "RUNNING",
-          "image": "ami-14aa2524",
+          "image": "ami-198a1929",
+          "publicKeys": [
+            "thomas@tada.se:ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA77+8pjmo4CqIKVfliWpjpuodUnGcZxTDn8ZOLumQ1pqCx0wzSnHZT2IsHYX6rSKiG0CGZQ+PaKUwBsxzi7qQUAKIMgXWjbNSbu2jWsj5pIFbJkCLx4ej98ZBuW6OxdYJ9w2du5ibhhCw0mE4p/Cop4jUjch34nSMnaytZ3k1ZtGKNF1+kgMvi5sjRiUNUQrFOQXrLtGzsWddDGiS+A5WyOtuxggDkAimYrKZeeI/YPtcbHKE2ib7s6R+IGlAnla706Eavy+pPYPpIv9fcBG8dR+iOeBD4KBK2+lZERmVWvBJ7w/Poc6wPtW6LGVDi9vsJzmsTpfpeyRZBniVgrUFZw\u003d\u003d thomas@tada.se"
+          ],
           "name": "centos63010"
         }
       ],
